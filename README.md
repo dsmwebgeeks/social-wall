@@ -12,11 +12,11 @@ If you want to be able to watch for changes, have [Grunt](http://gruntjs.com/) i
 
 ## Setup
 
-First, fork the Dojo repository and clone it to your local computer.
+First, fork this repository and clone it to your local computer.
 
-    $ git clone git@github.com:<YOUR USERNAME>/codedojo.git
+    $ git clone git@github.com:<YOUR USERNAME>/social-wall.git
 
-On your local copy, go to the `2014-05-12` folder and copy `/base/` as your group's name.
+On your local copy, copy `/base/` as your group's name.
 
     $ cp -rf ./base ./<YOUR GROUP NAME>
 
