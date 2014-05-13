@@ -585,59 +585,20 @@ img {
   height: auto;
 }
 
-/* line 28, style.scss */
-body {
-  padding: 1rem;
-  background: #333;
-}
-@media all and (min-width: 40rem) {
-  /* line 28, style.scss */
-  body {
-    padding: 0;
-    overflow: hidden;
-  }
+/* line 49, style.scss */
+h3.panel-title {
+  font-weight: bold;
 }
 
-/* line 38, style.scss */
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 300;
-  color: #efefef;
-}
-
-/* line 46, style.scss */
-.feeds .feed {
-  background: #111;
-  border: 3px solid #666;
-  padding: 1rem;
-  color: #efefef;
-}
-@media all and (min-width: 40rem) {
-  /* line 45, style.scss */
-  .feeds {
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-content: stretch;
-    max-height: 90vh;
-  }
-  /* line 60, style.scss */
-  .feeds .feed {
-    overflow: scroll;
-    flex: 1;
-  }
-}
-
-/* line 67, style.scss */
+/* line 53, style.scss */
 .item {
   margin-bottom: 1rem;
 }
-/* line 70, style.scss */
+/* line 56, style.scss */
 .item.item-foursquare {
   text-align: center;
 }
-/* line 73, style.scss */
+/* line 59, style.scss */
 .item.item-foursquare strong {
   font-size: 5em;
   display: block;

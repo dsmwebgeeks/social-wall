@@ -24,44 +24,30 @@ img {
 }
 
 // COMPONENT STYLES
-
-body {
-    padding: $pad;
-    background: #333;
-
-    @media all and (min-width: $bp-med) {
-        padding: 0;
-        overflow: hidden;
-    }
-}
-
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #efefef;
-}
-
 .feeds {
     .feed {
-        background: #111;
-        border: 3px solid #666;
-        padding: $pad;
-        color: #efefef;
+        // background: #111;
+        // border: 3px solid #666;
+        // padding: $pad;
+        // color: #efefef;
     }
 
     @media all and (min-width: $bp-med) {
-        overflow: hidden;
-        position: relative;
-        display: flex;
-        align-content: stretch;
-        max-height: 90vh;
+        // overflow: hidden;
+        // position: relative;
+        // display: flex;
+        // align-content: stretch;
+        // max-height: 90vh;
 
         .feed {
-            overflow: scroll;
-            flex: 1;
+            // overflow: scroll;
+            // flex: 1;
         }
     }
+}
+
+h3.panel-title {
+    font-weight: bold;
 }
 
 .item {

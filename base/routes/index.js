@@ -32,9 +32,9 @@ exports.index = function(req, res){
 };
 
 exports.tweets = function(req, res) {
-    // twit.get('statuses/user_timeline', { screen_name: 'SCREEN_NAME_HERE', count: 10 }, function(err, data, response) {
-    //     res.json(data);
-    // });
+    twit.get('statuses/user_timeline', { screen_name: 'itrace', count: 10 }, function(err, data, response) {
+        res.json(data);
+    });
 };
 
 exports.instagram = function(req, res) {

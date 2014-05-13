@@ -2,16 +2,34 @@ doctype html
 html(lang="en")
     head
         title= title
+        link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/bootswatch/3.1.1/simplex/bootstrap.min.css')
+        link(rel='stylesheet', href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css')
         link(rel='stylesheet', href='/css/style.css')
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
     body
-        h1 Welcome to the Social Wall
-        .feeds
-            .feed(data-feed='twitter')
-                h2 Twitter
-            .feed(data-feed='instagram')
-                h2 Instagram
-            .feed(data-feed='foursquare')
-                h2 Foursquare
-        script(src='/bower_components/jquery/dist/jquery.min.js')
-        script(src='/js/main.js')
+        .container
+            .page-header
+                h1 Welcome to the Social Wall
+
+            div.row.feeds
+                .col-sm-4
+                    .panel.panel-default
+                        .panel-heading
+                            h3.panel-title Twitter 
+                                i.fa.fa-twitter
+                        .panel-body.feed(data-feed='twitter')
+                .col-sm-4
+                    .panel.panel-default
+                        .panel-heading
+                            h3.panel-title Instagram 
+                                i.fa.fa-instagram
+                        .panel-body.feed(data-feed='instagram')
+                .col-sm-4
+                    .panel.panel-default
+                        .panel-heading
+                            h3.panel-title Foursquare 
+                                i.fa.fa-foursquare
+                        .panel-body.feed(data-feed='foursquare')
+
+            script(src='/bower_components/jquery/dist/jquery.min.js')
+            script(src='/js/main.js')
